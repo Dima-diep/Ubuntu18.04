@@ -17,9 +17,9 @@ apt install git -y
 apt install python -y
 apt install python2 -y
 apt install python3 -y
-apt install curl
-apt install wget
-apt install pip
-apt install python-pip
-apt install python3-pip
+apt install curl -y
+apt install wget -y
+apt install pip -y
+apt install python-pip -y
+apt install python3-pip -y
 echo "Hello, dear User. You've installed Ubuntu 18.04 on your smartphone! You can use root commands even without real root!"
