@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "You're installing Ubuntu 20.04 on Termux"
+echo "You're installing Ubuntu 18.04 on Termux"
 apt update -y
 apt upgrade -y
 pkg update -y
@@ -22,4 +22,4 @@ apt install wget
 apt install pip
 apt install python-pip
 apt install python3-pip
-echo "Hello, dear User. You've installed Ubuntu 20.04 on your smartphone! You can use root commands even without real root!"
+echo "Hello, dear User. You've installed Ubuntu 18.04 on your smartphone! You can use root commands even without real root!"
