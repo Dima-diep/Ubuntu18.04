@@ -10,9 +10,10 @@ pkg install tar -y
 curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Ubuntu/ubuntu.sh | bash
 chmod +x *
 ./start-ubuntu.sh
-sudo -i
 apt update -y
 apt upgrade -y
+apt install sudo -y
+sudo -i
 apt install git -y
 apt install python -y
 apt install python2 -y
