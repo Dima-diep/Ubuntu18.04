@@ -8,6 +8,7 @@ pkg install curl -y
 pkg install proot -y 
 pkg install tar -y
 curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Ubuntu/ubuntu.sh | bash
+rm -rf ubuntu18-04-installer-iso.sh
 chmod +x *
 ./start-ubuntu.sh
 apt update -y
